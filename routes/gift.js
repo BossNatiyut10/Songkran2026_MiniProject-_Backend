@@ -6,9 +6,9 @@ const router = express.Router();
 
 // Songkran 2026 dates and matching env var keys
 const DAYS = [
-  { day: 1, date: '2026-04-14', envKey: 'CODE_DAY1' },
-  { day: 2, date: '2026-04-15', envKey: 'CODE_DAY2' },
-  { day: 3, date: '2026-04-16', envKey: 'CODE_DAY3' },
+  { day: 1, date: '2026-04-15', envKey: 'CODE_DAY1' },
+  { day: 2, date: '2026-04-16', envKey: 'CODE_DAY2' },
+  { day: 3, date: '2026-04-17', envKey: 'CODE_DAY3' },
 ];
 
 // Helper: get today's date string 'YYYY-MM-DD' in Bangkok timezone (UTC+7)
