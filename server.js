@@ -9,7 +9,8 @@ const giftRoutes = require('./routes/gift');
 const app = express();
 
 const allowedOrigins = [
-  process.env.FRONTEND_URL || 'http://localhost:5173',];
+  (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '')
+];
 
 app.use(
   cors({
